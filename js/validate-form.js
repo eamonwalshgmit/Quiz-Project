@@ -1,3 +1,5 @@
+//Great stuff
+
 function validate(form) {
     fail  = validateForename(form.forename.value);
     fail += validateSurname(form.surname.value);
