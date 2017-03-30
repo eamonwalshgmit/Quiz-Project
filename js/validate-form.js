@@ -1,5 +1,7 @@
 //Great stuff
 
+//This is version two - made some minor changes
+
 function validate(form) {
     fail  = validateForename(form.forename.value);
     fail += validateSurname(form.surname.value);
@@ -20,6 +22,9 @@ function validate(form) {
 function validateForename(field) {
     return (field == "") ? "No Forename was entered.\n" : "";
 }
+
+
+//Changed the validate Surname function
 
 //Basically check if Surname is empty
 function validateSurname(field) {
